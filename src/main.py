@@ -17,6 +17,7 @@ from src.v1 import auth_controller
 from src.v1 import healthcheck_controller
 from src.v1 import feature_request_controller
 from src.v1 import client_controller
+from src.v1 import usage_statistics_controller
 
 def cleanup_invalidated_tokens():
     print "Starting background thread for cleaning up invalidated tokens"
